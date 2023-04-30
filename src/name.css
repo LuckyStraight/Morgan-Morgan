@@ -1,0 +1,149 @@
+body {
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffcc00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #1a1a1a;
+  }
+  
+  form {
+    margin-top: 2rem;
+  }
+  
+  fieldset {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 2px solid #000;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #1a1a1a;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[name="firstName"],
+  input[name="middleInitial"],
+  input[name="lastName"],
+  input[name="city"],
+  input[name="state"],
+  input[name="zipCode"] {
+    width: 30%;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #000;
+    font-size: 1.2rem;
+    color: #1a1a1a;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  input[type="date"]:focus,
+  input[name="firstName"]:focus,
+  input[name="middleInitial"]:focus,
+  input[name="lastName"]:focus,
+  input[name="city"]:focus,
+  input[name="state"]:focus,
+  input[name="zipCode"]:focus {
+    outline: none;
+    border-color:white;
+  }
+  
+  input[name="phoneNumber"],
+  input[name="email"] {
+    width: 50%;
+    max-width: 400px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #000;
+    font-size: 1.2rem;
+    color: #1a1a1a;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[name="address1"],
+  input[name="address2"] {
+    width: 100%;
+    max-width: 400px;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #000;
+    font-size: 1.2rem;
+    color: #1a1a1a;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+  }
+  
+  button[type="submit"] {
+    background-color: #1a1a1a;
+    color: #ffcc00;
+    padding: 0.5rem 1rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    font-size: 2.3rem;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    transition: 0.1s;
+    background-color: #db4d4d;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: #ffcc00;
+    margin-top: 0.5rem;  
+    font-size: 1.2rem;
+  }
+  
+  .success {
+    color: green;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  textarea[name="reason"] {
+    width: 100%;
+    height: 10rem; /* Change the height as per your requirement */
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+  }
+  
+  textarea[name="reason"]:focus {
+    outline: none;
+    border-color: #555;
+  }
+  

@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  /* body{
+      background-size: auto;
+    } */
+  
+  #navBar {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+  
+  #homeButtonContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logoText {
+    font-weight: 600;
+    margin-left: 1.5rem;
+  }
+  
+  #logo {
+    height: 5rem;
+    width: 30rem;
+    margin-left: 2rem;
+  }
+  
+  #mainDesc {
+    font-size: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  #shortDesc {
+    font-size: 3rem;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  
+  #getStarted {
+    width: 20rem;
+    height: 5rem;
+    font-size: 15rem;
+    font-weight: 500;
+    margin-top: 5rem;
+    margin-left: 9rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: red;
+    color: white;
+  }
+  .container-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  #getStarted:hover {
+    transition: 0.1s;
+    background-color: rgb(188, 0, 0);
+    cursor: pointer;
+  }
+  
+  .frontPic:hover {
+    transition: 0.3s;
+    transform: translate3D(0, -1px, 0) scale(1.03);
+  }
+  
+  .frontPic {
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    position: absolute;
+    border-radius: 18px;
+    width: 30rem;
+    object-fit: cover;
+  }
+  
+  #front1 {
+    margin-top: 3rem;
+    z-index: 1;
+    top: 0;
+    left: 8rem;
+    width: 30rem;
+    height: 30rem;
+  }
+  
+  .btn-block {
+    display: block;
+  }
+  
+  .button {
+    width: 20rem;
+    height: 5rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: 5rem;
+    margin-left: 30rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: yellow;
+    color: black;
+  }
+  
+  .button:hover {
+    transition: 0.1s;
+    background-color: #db4d4d;
+    cursor: pointer;
+  }
+  
+  #front2 {
+    margin-top: 10rem;
+    z-index: 2;
+    top: 5rem;
+    left: 35rem;
+    height: 30rem;
+  }
+  
+  #front3 {
+    margin-top: 10rem;
+    z-index: 3;
+    top: 24rem;
+    left: 4rem;
+    height: 30rem;
+  }
+  #picWrapper {
+    position: relative;
+  }
+  
+  .aboutButton {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-right: 9rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: black;
+    color: yellow;
+    transition: background-color 0.3s ease;
+  }
+  
+  .aboutButton:hover {
+    background-color: #db4d4d;
+    cursor: pointer;
+  }
+  
+  .phoneNumberContainer {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  
+  
+  

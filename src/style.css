@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  /* body{
+      background-size: auto;
+    } */
+  
+  #navBar {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    background-color: black(255, 255, 255);
+    align-items: center;
+  }
+  
+  #homeButtonContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logoText {
+    font-weight: 600;
+    margin-left: 1.5rem;
+  }
+  
+  #logo {
+    height: 5rem;
+    width: 5rem;
+    margin-left: 2rem;
+  }
+  
+  #mainDesc {
+    font-size: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    font-weight: 400;
+  }
+  
+  #shortDesc {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-left: 5rem;
+  }
+  
+  #getStarted {
+    width: 20rem;
+    height: 5rem;
+    font-size: 15rem;
+    font-weight: 500;
+    margin-top: 5rem;
+    margin-left: 9rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: black;
+    color: yellow;
+  }
+  
+  #getStarted:hover {
+    transition: 0.1s;
+    background-color: rgb(188, 0, 0);
+    cursor: pointer;
+  }
+  
