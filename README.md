@@ -35,4 +35,4 @@ The goal for this project is to save the answered questions for when you exit, b
 ## Contributors
 
 1. Joshua Khooba
-2. richard Phillips
+2. Richard Phillips
